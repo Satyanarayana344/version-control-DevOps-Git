@@ -13,7 +13,7 @@ This project explains how to manage a DevOps project using **Git best practices*
 
 1.First create a local git repository in a EC2 machine.Then create directory to add  neccessary files includes that directory.
 And "Add" those files using git command  "git add ." to add all files in the local repo.
-And Commit the changes using git command "git commit -m " some content added message ". Here "m" is a 
+And Commit the changes using git command "git commit -m " some content added message ". Here "m" is a "MESSAGE" to local repository(commit changes to the local repository with a message).
 
 2.Branching Strategy
 main → Production-ready code
@@ -33,3 +33,4 @@ git push origin feature/add-readme
 Open a Pull Request (PR) from feature/* → dev
 Review and merge the PR
 Merge dev branch into main branch for stable release
+
